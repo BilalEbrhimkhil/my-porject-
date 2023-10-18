@@ -1,0 +1,74 @@
+ /* Defult*/
+ body{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+}
+ .continer{
+    max-width: 800px;
+    margin: auto;
+ }
+ a{
+  color: #000;
+
+ }
+ p{
+  color: #383737;
+ }
+ h1{
+    font-size: 2rem;
+ }
+ h2{
+  font-size: 1.5em;
+  margin-top: 2em;
+ }
+ img{
+   max-width: 30%;
+    height: 50vh;
+    margin: 2em;
+    border-radius: 5%;
+ }
+  /* Nav */
+ nav{
+    width: auto;
+    height: 10vh;
+    background-color: rgba(244, 83, 14, 0.888);
+    text-align: center; 
+ }
+ nav h2{
+   display: inline;
+ }
+ .info{
+    display: flex;
+    gap: 10px;
+    margin-top: 2em;
+ }
+ .text{
+    max-width: 70%;
+    height: 50vh;
+    margin-top: 2em;
+    
+ }
+ @media (max-width:600px) {
+   .continer{
+      margin:1em;
+   }
+      .info{
+    flex-direction: column;
+    margin: 1em 0 0 0 ;
+ }
+ img{
+   max-width: 100%;
+   margin: 0%;
+   margin-top: 1em;
+ }
+ .nfo img{
+   border-radius: 5%;
+ }
+ .text{
+   max-width: 100%;
+   height: 70%;
+   margin-top: 1em;
+}
+ }
+ 

@@ -1,0 +1,168 @@
+ /*  --------  Difault --------*/
+
+body{
+    max-width: 1000px;
+    margin: 0% auto;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .continer{
+    margin: 2em;
+}
+p{
+    font-size: .80rem;
+    letter-spacing: 1px;
+    color: rgb(40, 40, 40);
+}
+.caruent{
+    border-bottom: 2px solid #000 ;
+}
+h1{
+    font-size: 1rem;
+    margin: .70em 0;
+}
+a{
+    margin: .70em;
+}
+img{
+    margin-top: 1em;
+    width: 100%;
+}
+h2{
+    font-size: 1rem;
+    margin: 2em;
+}
+.date{
+    font-size: .80rem;
+    margin: .50em 0;
+}
+ /*  -------- Home --------*/
+
+.h1-main{
+    margin-top: 0%;
+    margin-bottom: .80em;
+    font-size: 2rem;
+}
+.per-h1{
+    font-size: 1rem;
+    margin: 1.5em 0;
+}
+
+.main_iamge{
+    min-width: 100%;
+ }
+ .my{
+    margin-right: auto;
+    margin-left: 0%;
+}
+
+ /*  -------- navgition --------*/
+ 
+.navgition{
+    margin: 0;
+    width: 100%;
+    height: 10vh;
+    background-color:#fff;
+  
+}
+ul{ 
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+li, a{
+    font-size: .80rem;
+    font-weight: 700;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+
+ /*  -------- footer --------*/
+.footer,h2,.p-footer{
+    text-align: center;
+}
+ 
+footer{
+    height: 10vh;
+    background-color: #000;
+    color:white;
+    margin-bottom: 5em;
+    padding: 1em;
+}
+.p-footer{
+     margin-top: 0%;
+     margin-bottom: 1em;
+     color: white;
+     
+}
+.h2-footer{
+    margin-top: 1em;
+    margin-bottom: 0%;
+}
+/*  --------journal --------*/
+ 
+.main-journey{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin-top: 0%;
+    margin-bottom: 2em;
+    background-image: url("./image/ma.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.continer-joureny{
+ margin: 0 2rem 2rem 2rem;
+}
+.journey-par{
+    position: absolute;
+    bottom:2em;
+    left: 1em;
+}
+ 
+.main-journey p{
+    color:white;
+    margin-top: 0%;
+}
+.main-journey h1{
+    margin-top: 0%;
+    margin-bottom: .80em;
+    font-size: 2rem;
+    color: white;
+}
+ 
+ /*  ------- About Me --------*/
+ .main-about{
+   display: flex;
+   flex-direction: column;
+   margin: 3em 0 1em 2em;
+   gap: 2em;
+ }
+  .pic-main{
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+}
+.about-par h1{
+    font-size: 2rem;
+}
+ /*  ------  Media   --------*/
+@media (min-width:600px){
+    .post{ 
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .paragarph,.main{
+        margin: 0 2em;
+    } 
+    .main-about{
+         display: flex;
+         flex-direction: row;
+     }
+}
